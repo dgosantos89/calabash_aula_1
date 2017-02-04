@@ -1,5 +1,12 @@
 Dado(/^que estou aprendendo comandos$/) do
-  puts 'Deu certo'
+  @nome_cliente = Faker::Name.name
+  @cpf = Faker::CPF.numeric
+  @agencia = Faker::Base.numerify('####-#')
+  @conta = Faker::Base.numerify('00#####-#')
+  puts 'O nome do cliente é ' + @nome_cliente
+  puts 'O CPF do cliente é ' + @cpf
+  puts 'A agência do cliente é ' + @agencia
+  puts 'A conta do cliente é ' + @conta
 end
 
 Quando(/^escrever os comandos$/) do
