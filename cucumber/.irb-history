@@ -1,0 +1,50 @@
+query('*')
+  touch('android.widget.Button', id:'btnChamaBuscaCEP')
+  touch('android.widget.Button', id:'btnChamaBuscaCEP')
+  touch('android.widget.Button', id:'btnChamaBuscaCEP')
+touch("* id:btnCalcular")
+touch("* id:'btnCalcular'")
+touch("* id:'btnCalcular'")
+touch("id:'btnCalcular'")
+touch(id:'btnCalcular')
+touch("id:'btnCalcular'")
+touch("* id:'btnCalcular'")
+touch("* id:'btnCalcular'")
+start_test_server_in_background
+check_element_exists("*id: 'txtResultado' marked:'#{query("* id:'txtResultado'")}'")
+check_element_exists("*id: 'txtResultado' marked:'#{query("* id:'txtResultado'")}'")
+check_element_exists("*id: 'txtResultado' marked:'#{query("* id:'txtResultado'", :getText)}'")
+check_element_exists("*id: 'txtResultado' marked:'#{query("* id:'txtResultado'", :getText)}'")
+start_test_server_in_background
+check_element_exists("* id: 'txtResultado' marked:'#{query("* id:'txtResultado'", :getText)}'")
+check_element_exists("* id:'txtResultado' marked:'#{query("* id:'txtResultado'", :getText)}'")
+query("* id:'txtResultado'")
+check_element_exists("* id:'txtResultado' text:'#{query("* id:'txtResultado'", :getText)}'")
+query("* id:'txtResultado'", :getText)}'")
+query("* id:'txtResultado'", :getText)
+query("* id:'txtResultado'", :getText)[0]
+check_element_exists("* id:'txtResultado' text:'#{query("* id:'txtResultado'", :getText)[0]}'")
+start_test_server_in_background
+exit
+reinstall_apps
+start_test_server_in_background
+query('*')
+perform_action('drag', 99, 1, 50, 50, 5)
+perform_action()
+execute_gesture(Gesture.with_parameters(Gesture.swipe(left))
+execute_gesture(Gesture.with_parameters(Gesture.swipe(left))
+ perform_action('swipe', 'left')
+perform_action('swipe', 'left')
+perform_action('swipe', 'right')
+perform_action('swipe', 'right')
+perform_action('swipe', 'left')
+perform_action('swipe', 'left')
+perform_action('swipe', 'left')
+perform_action('swipe', 'left')
+start_test_server_in_background
+start_test_server_in_background
+start_test_server_in_background
+exit
+exit
+exit
+exit
